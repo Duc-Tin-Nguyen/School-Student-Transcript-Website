@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .welcome {
+        font-size: 100px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        padding-left: 20px;
+        color: whitesmoke;
+      }
+      
+      .welcome-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="welcome-row">
+        <div>WELCOME</div>
+        <div>PAGE</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<html>
+    <head>
+        <style>
+            .box {
+                position: absolute;
+                top: 42%;
+                right: 20%;
+                transform: translateY(-50%);
+                width: 300px;
+                height: 90px;
+                background-color: rgba(232, 232, 232, 0.139);
+                border: none !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .text {
+                font-size: 40px;
+                color: rgb(255, 253, 253);
+                margin-top: 0;
+            }
+            .small-box {
+                width: 295px;
+                height: 85px;
+                background-color: rgb(209, 3, 174);
+                border: none !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .small-box a {
+            text-decoration: none;
+            }
+            .small-box .text {
+                font-size: 30px;
+                margin-top: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="small-box">
+                <a href="">
+                    <p class="text">index.html</p>
+                </a>
+            </div>
+        </div>
+    </body>
+     
+	<style>
+		.parallelogram {
+			background-color: rgba(1, 1, 1, 0.468);
+			transform: skewX(-20deg);
+			padding: 20px;
+			margin-top: -580px;
+			width: 55%;
+			height: 160%;
+			position: absolute;
+			top: 0;
+			left: 300;
+		}
+		
+		.content {
+			margin-top: 100px;
+			margin-left: 60%;
+			padding: 50px;
+		}
+
+		.blue-box {
+			background-color: rgba(1, 1, 1, 0.468);
+			height: 170px;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 9999;
+		}
+
+		.box {
+			border: 1px solid black;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+
+		.logo {
+			position: fixed;
+			top: 80px;
+			left: 35px;
+			width: 100px;
+			height: 70px;
+			background-color: transparent;
+		}
+
+		#video-background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 570px;
+			z-index: -1;
+			overflow: hidden;
+		}
+
+		#video-background video {
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			object-fit: cover;
+		}
+
+		.table-container {
+			position: relative;
+			top: 600px;
+		}
+    .video-text h1 {
+    font-size: 60px;
+    color: rgb(209, 3, 174);
+    margin: 0;
+    text-align: center;
+          }
+          
+          .video-text h1 span {
+            font-size: 40px;
+            color: rgb(209, 03, 174);
+          }
+          
+          .video-text {
+            position: absolute;
+            bottom: 700px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+          }      
+	</style> 
+</head>
+<body>
+	<div class="parallelogram"></div>
+	<div class="content"></div>
+	<div class="blue-box"></div>
+	<div class="box"></div>
+	<div id="video-background">
+		<video autoplay muted loop>
+			<source src=./Video-Home-Page-Site-Web-2.mp4>
+		</video>
+	</div>
+	<div class="table-container">
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: row;">
+            <div style="border-right: 1px solid black; padding-right: 10px;">
+                <div class="video-text">
+                    <span style="font-size: 65px; color: rgb(209, 3, 174); font-weight: bold; position: relative; left: -500px;">Welcome,</span>
+                    <br>
+                    <span style="font-size: 50px; color: rgb(18, 24, 83); font-weight: bold; position: relative; left: -250px;">Stephanie</span>
+                </div>
+            </div>
+        </div>
+	</div>
+</body>
+<style>
+  h2 {
+    margin-left: 50px; 
+    margin-top: 50px; 
+    font-size: 50px;
+    color: rgba(209,3,174);
+  }
+  table {
+    margin-left: 50px;
+    width: 10%;
+    color: rgb(18,24,38);
+    font-size: larger;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+  }
+</style>
+                  <h2>Active Populations</h2>
+                  <table>
+                      <td><a href=./AIs_Population.html>AIs</a></td>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./CS_Population.html>CS</a></td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./DSA_Population.html>DSA</a></td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./ISM_Population.html>ISM</a></td>
+                      <td>9</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./SE_Population.html>SE</a></td>
+                      <td>9</td>
+                    </tr>
+                  </table>
+        </td>
+        <td>
+          <img src=./chart1.png alt="Image 1", style="position: relative; top: -280px; left: 700px;">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <style>
+            h2 {
+              margin-left: 50px; 
+              margin-top: 50px; 
+              font-size: 50px;
+              color: rgba(209,3,174);
+            }
+            table {
+              margin-left: 50px;
+              width: 10%;
+              color: rgb(18,24,38);
+              font-size: larger;
+              font-weight: bold;
+            }
+          </style>
+          <h2>Overall Attendance</h2>
+                  <table>
+                    <tr>
+                      <td><a href=./AIs_Population.html>AIs</a></td>
+                      <td>74</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./CS_Population.html>CS</a></td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./DSA_Population.html>DSA</a></td>
+                      <td>72</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./ISM_Population.html>ISM</a></td>
+                      <td>69</td>
+                    </tr>
+                    <tr>
+                      <td><a href=./SE_Population.html>SE</a></td>
+                      <td>70</td>
+                    </tr>
+                  </table>
+        </td>
+        <td>
+          <img src=./chart2.png alt="Image 2", style="position: relative; top: -280px; left: 700px;">
+        </td>
+      </tr>
+    </table>
+          </div>
+          <div>
+            <img class=./Epita.png alt="Logo">
+        </body>
+    
