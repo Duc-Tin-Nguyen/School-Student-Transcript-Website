@@ -127,22 +127,19 @@
 			background-color: transparent;
 		}
 
-		#video-background {
+		#background {
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 570px;
+			height: 3000px;
 			z-index: -1;
 			overflow: hidden;
 		}
 
-		#video-background video {
-			min-width: 100%;
-			min-height: 100%;
-			width: auto;
-			height: auto;
-			object-fit: cover;
+		#background img {
+			width: 100%;
+			height: 3000px;
 		}
 
 		.table-container {
@@ -175,10 +172,8 @@
 	<div class="content"></div>
 	<div class="blue-box"></div>
 	<div class="box"></div>
-	<div id="video-background">
-		<video autoplay muted loop>
-			<source src=./Video-Home-Page-Site-Web-2.mp4>
-		</video>
+	<div id="background">
+		<img src="Landing.png" alt="Landing Image" style="width: 100%; height: 600px;">
 	</div>
 	<div class="table-container">
         <div style="display: flex; align-items: center; justify-content: center; flex-direction: row;">
@@ -285,6 +280,6 @@
     </table>
           </div>
           <div>
-            <img class=./Epita.png alt="Logo">
+            <img class="logo" src="Epita.png" alt="Logo" style="display: block; max-width: 100%; height: auto;">
         </body>
     
